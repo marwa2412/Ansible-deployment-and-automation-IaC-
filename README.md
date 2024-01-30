@@ -88,13 +88,17 @@ These objectives drive proactive security measures, minimize manual errors, and 
 
 <h1>VI. Playbooks:</h1>
 
-1. **Example Playbook: Updating Cache and Installing Apache:**
+1.  **Execute Playbook:**
+
+   ansible-playbok --ask-become-pass <playbook_name.yml>
+    
+3.  **Example Playbook: Updating Cache and Installing Apache:**
    - This playbook updates the package index and installs Apache2 on specified hosts.
      
      ![image](https://github.com/marwa2412/Ansible-deployment-and-automation-IaC-/assets/86896531/6978e3bc-a89e-41f6-a0cb-542da24615fe)
 
 
-2. **Customizing Playbooks:**
+3. **Customizing Playbooks:**
    - **Tags:** Mark parts of the playbook for selective execution.
      
      ![image](https://github.com/marwa2412/Ansible-deployment-and-automation-IaC-/assets/86896531/1be44fc7-f426-437f-8a3f-462bae175a4a)
@@ -116,42 +120,42 @@ These objectives drive proactive security measures, minimize manual errors, and 
 
 
 
-3. **Playbook: Configuration Removal:**
+4. **Playbook: Configuration Removal:**
    - Removes the Apache2 package from a specific machine.
      
      ![image](https://github.com/marwa2412/Ansible-deployment-and-automation-IaC-/assets/86896531/edd8917c-f655-423e-a9cc-44282adbc6b4)
 
 
-4. **Playbook: File Copies:**
+5. **Playbook: File Copies:**
    - Copies an HTML file to web servers.
      
      ![image](https://github.com/marwa2412/Ansible-deployment-and-automation-IaC-/assets/86896531/4ec8507e-f128-4246-b4fd-dfafcaecf9c7)
 
 
-5. **Playbook: File Access Rights Management:**
+6. **Playbook: File Access Rights Management:**
    - Modifies access rights for a specified file.
      
      ![image](https://github.com/marwa2412/Ansible-deployment-and-automation-IaC-/assets/86896531/56bc45e4-e766-4c3a-bff1-59c6a4c84c71)
 
 
-6. **Playbook: File Management:**
+7. **Playbook: File Management:**
    - Installs Terraform on workstations.
      
      ![image](https://github.com/marwa2412/Ansible-deployment-and-automation-IaC-/assets/86896531/fbd25eae-24fe-480e-836c-e4d04b4aa61f)
 
 
-7. **Playbook: Service Management:**
+8. **Playbook: Service Management:**
    - Installs and starts the HTTPD service on CentOS.
      
     ![image](https://github.com/marwa2412/Ansible-deployment-and-automation-IaC-/assets/86896531/95301ff0-be14-44c0-b5d2-2fac5da95cb3)
 
 
-8. **Playbook: Adding Users:**
+9. **Playbook: Adding Users:**
    - Creates a new user, adds an SSH key, and grants sudo privileges.
      
      ![image](https://github.com/marwa2412/Ansible-deployment-and-automation-IaC-/assets/86896531/0fa46190-bbf0-496c-af83-f52ddf46bf5e)
 
-9. **Playbook: Role-Based Access Control (RBAC):**
+10. **Playbook: Role-Based Access Control (RBAC):**
     - Applies different roles to specific host groups.
       
       ![image](https://github.com/marwa2412/Ansible-deployment-and-automation-IaC-/assets/86896531/68cfa109-3a9e-4488-8a38-a910a2556ec2)
@@ -168,13 +172,13 @@ These objectives drive proactive security measures, minimize manual errors, and 
       • site.yml:
       ![image](https://github.com/marwa2412/Ansible-deployment-and-automation-IaC-/assets/86896531/e5011401-82ef-4b1c-ab01-a1a37fa34b94)
 
-10. **Playbook: Firewall Management:**
+11. **Playbook: Firewall Management:**
     - Configures UFW (Uncomplicated Firewall) on Ubuntu and firewalld on CentOS.
       
       ![image](https://github.com/marwa2412/Ansible-deployment-and-automation-IaC-/assets/86896531/17fa7893-08ea-45d2-abf8-4b7b5c7b6595)
 
 
-11. **Playbook: SELinux Configuration:**
+12. **Playbook: SELinux Configuration:**
     - Configures SELinux on a specific machine.
       
       ![image](https://github.com/marwa2412/Ansible-deployment-and-automation-IaC-/assets/86896531/b552945c-1f35-4935-a12f-4b0991d34b88)
