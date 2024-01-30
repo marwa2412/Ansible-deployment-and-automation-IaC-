@@ -28,6 +28,9 @@ These objectives drive proactive security measures, minimize manual errors, and 
 9. SSH Connection: Ansible uses SSH for secure communication with hosts, ensuring encrypted connections.
 10. Control Host and Server Interaction: The Control Host orchestrates operations, storing playbooks and managing remote servers (hosts), including physical, virtual, or cloud instances.
 
+      <img width="688" alt="image" src="https://github.com/marwa2412/Ansible-deployment-and-automation-IaC-/assets/86896531/2ff8fcc8-39de-4c4c-a999-735952a717b7">
+
+
 <h1>IV. OpenSSH Management:</h1>
 
 1. Setup and Activation:
@@ -46,6 +49,9 @@ These objectives drive proactive security measures, minimize manual errors, and 
 4. Connection Verification:
    - Connection using keys: `ssh -i ~/.ssh/<key_name> <IP Address>`
    - Connection using passwords: `ssh <IP Address>`
+
+![image](https://github.com/marwa2412/Ansible-deployment-and-automation-IaC-/assets/86896531/78342e37-9417-48a9-be87-35e505c85b41)
+
 
 <h1>V. Ansible Configuration: Ad-Hoc Commands</h1>
 
@@ -96,6 +102,8 @@ These objectives drive proactive security measures, minimize manual errors, and 
    - **Configuration Variables:** Allow customization and code reuse.
      
      ![image](https://github.com/marwa2412/Ansible-deployment-and-automation-IaC-/assets/86896531/68b4785d-db4c-4a30-b547-a0614e4bf95c)
+     ![image](https://github.com/marwa2412/Ansible-deployment-and-automation-IaC-/assets/86896531/9bbd9221-2285-4c6a-b426-bf6fcbb37507)
+
 
    - **Conditions (when):** Add conditions to execute tasks.
      
@@ -123,19 +131,19 @@ These objectives drive proactive security measures, minimize manual errors, and 
 5. **Playbook: File Access Rights Management:**
    - Modifies access rights for a specified file.
      
-     ![image](https://github.com/marwa2412/Ansible-deployment-and-automation-IaC-/assets/86896531/417e43c9-823b-481b-8583-8901082b3d90)
+     ![image](https://github.com/marwa2412/Ansible-deployment-and-automation-IaC-/assets/86896531/56bc45e4-e766-4c3a-bff1-59c6a4c84c71)
 
 
 6. **Playbook: File Management:**
    - Installs Terraform on workstations.
      
-     ![image](https://github.com/marwa2412/Ansible-deployment-and-automation-IaC-/assets/86896531/ced827d0-e491-4e8a-a3c7-e642c123f72f)
+     ![image](https://github.com/marwa2412/Ansible-deployment-and-automation-IaC-/assets/86896531/fbd25eae-24fe-480e-836c-e4d04b4aa61f)
 
 
 7. **Playbook: Service Management:**
    - Installs and starts the HTTPD service on CentOS.
      
-     ![image](https://github.com/marwa2412/Ansible-deployment-and-automation-IaC-/assets/86896531/1a3c1260-9d06-4a19-8514-323b7998a73e)
+    ![image](https://github.com/marwa2412/Ansible-deployment-and-automation-IaC-/assets/86896531/95301ff0-be14-44c0-b5d2-2fac5da95cb3)
 
 
 8. **Playbook: Adding Users:**
@@ -179,7 +187,7 @@ To automatically log the results of each Ansible playbook execution to a file af
 
 Once this module is added to the configuration file, Ansible logging begins.
 
-<h1>VIII. Conclusion:</h1>h1>
+<h1>VIII. Conclusion:</h1>
 
 In conclusion of this Automation of Security Enhancement with Ansible project, it is evident that the technical and methodological approach employed provides a robust solution for maintaining security within a complex infrastructure. Key concepts such as configuration management, Role-Based Access Control (RBAC), and automation of security tasks demonstrate significant advancements in risk management and compliance.
 
