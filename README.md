@@ -92,7 +92,7 @@ These objectives drive proactive security measures, minimize manual errors, and 
 
    ansible-playbok --ask-become-pass <playbook_name.yml>
     
-3.  **Example Playbook: Updating Cache and Installing Apache:**
+2.  **Example Playbook: Updating Cache and Installing Apache:**
    - This playbook updates the package index and installs Apache2 on specified hosts.
      
      ![image](https://github.com/marwa2412/Ansible-deployment-and-automation-IaC-/assets/86896531/6978e3bc-a89e-41f6-a0cb-542da24615fe)
